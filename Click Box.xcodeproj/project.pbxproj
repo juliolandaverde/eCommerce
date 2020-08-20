@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6200AA3923C7EC540073CA53 /* Clickboxmodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6200AA3723C7EC540073CA53 /* Clickboxmodel.xcdatamodeld */; };
+		6200AA4923CD03460073CA53 /* Favoritos+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AA4723CD03460073CA53 /* Favoritos+CoreDataClass.swift */; };
+		6200AA4A23CD03460073CA53 /* Favoritos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AA4823CD03460073CA53 /* Favoritos+CoreDataProperties.swift */; };
+		6200AA5223CD13EC0073CA53 /* Carrito+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AA5023CD13EC0073CA53 /* Carrito+CoreDataClass.swift */; };
+		6200AA5323CD13EC0073CA53 /* Carrito+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200AA5123CD13EC0073CA53 /* Carrito+CoreDataProperties.swift */; };
+		62102E6F23A82C0C00D2BCCC /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62102E6E23A82C0C00D2BCCC /* UserSettings.swift */; };
+		6211E26423B52D7000983FE0 /* FavoritoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E26323B52D7000983FE0 /* FavoritoView.swift */; };
+		6211E26623B54A6D00983FE0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E26523B54A6D00983FE0 /* HomeView.swift */; };
+		6211E26823B54E6600983FE0 /* CarritoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E26723B54E6600983FE0 /* CarritoView.swift */; };
+		6211E26A23B5534700983FE0 /* BuscarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E26923B5534700983FE0 /* BuscarView.swift */; };
+		622D0C6C23EB6C4B004FFDFE /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D0C6B23EB6C4B004FFDFE /* ImageCarouselView.swift */; };
+		6247193123ECE096007DF13F /* DetailAddCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6247193023ECE096007DF13F /* DetailAddCart.swift */; };
+		6248705224041D54002864CF /* ValoresPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6248705124041D54002864CF /* ValoresPago.swift */; };
+		62D191E323A6F48400A642FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D191E223A6F48400A642FE /* AppDelegate.swift */; };
+		62D191E523A6F48400A642FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D191E423A6F48400A642FE /* SceneDelegate.swift */; };
+		62D191E723A6F48400A642FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D191E623A6F48400A642FE /* ContentView.swift */; };
+		62D191E923A6F48600A642FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D191E823A6F48600A642FE /* Assets.xcassets */; };
+		62D191EC23A6F48600A642FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D191EB23A6F48600A642FE /* Preview Assets.xcassets */; };
+		62D191FA23A6F48600A642FE /* Click_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D191F923A6F48600A642FE /* Click_BoxTests.swift */; };
+		62D1920523A6F48600A642FE /* Click_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D1920423A6F48600A642FE /* Click_BoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62D191F623A6F48600A642FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D191D723A6F48400A642FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D191DE23A6F48400A642FE;
+			remoteInfo = "Click Box";
+		};
+		62D1920123A6F48600A642FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D191D723A6F48400A642FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D191DE23A6F48400A642FE;
+			remoteInfo = "Click Box";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62119C3123C3A9F100942223 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6200AA3823C7EC540073CA53 /* Clickboxmodel.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = Clickboxmodel.xcdatamodel; sourceTree = "<group>"; };
+		6200AA4223CCDEAC0073CA53 /* Clickboxmodel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Clickboxmodel 2.xcdatamodel"; sourceTree = "<group>"; };
+		6200AA4723CD03460073CA53 /* Favoritos+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favoritos+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6200AA4823CD03460073CA53 /* Favoritos+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favoritos+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6200AA4B23CD07D10073CA53 /* Click Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Click Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6200AA4C23CD07D10073CA53 /* Click BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Click BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6200AA4D23CD07D10073CA53 /* Click BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Click BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6200AA5023CD13EC0073CA53 /* Carrito+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Carrito+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6200AA5123CD13EC0073CA53 /* Carrito+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Carrito+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		62102E6E23A82C0C00D2BCCC /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		6211E26323B52D7000983FE0 /* FavoritoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritoView.swift; sourceTree = "<group>"; };
+		6211E26523B54A6D00983FE0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6211E26723B54E6600983FE0 /* CarritoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoView.swift; sourceTree = "<group>"; };
+		6211E26923B5534700983FE0 /* BuscarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarView.swift; sourceTree = "<group>"; };
+		6211E27E23B55BAB00983FE0 /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		6211E27F23B55BAB00983FE0 /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		6211E28023B55BAB00983FE0 /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Light.otf"; sourceTree = "<group>"; };
+		6211E28123B55BAB00983FE0 /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		622D0C6B23EB6C4B004FFDFE /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
+		6247193023ECE096007DF13F /* DetailAddCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAddCart.swift; sourceTree = "<group>"; };
+		6248705124041D54002864CF /* ValoresPago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoresPago.swift; sourceTree = "<group>"; };
+		62D191E223A6F48400A642FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62D191E423A6F48400A642FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62D191E623A6F48400A642FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62D191E823A6F48600A642FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D191EB23A6F48600A642FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62D191EE23A6F48600A642FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62D191F023A6F48600A642FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D191F923A6F48600A642FE /* Click_BoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click_BoxTests.swift; sourceTree = "<group>"; };
+		62D191FB23A6F48600A642FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D1920423A6F48600A642FE /* Click_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click_BoxUITests.swift; sourceTree = "<group>"; };
+		62D1920623A6F48600A642FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D191DC23A6F48400A642FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D191F223A6F48600A642FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D191FD23A6F48600A642FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6211E27923B5599000983FE0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6211E27F23B55BAB00983FE0 /* GothamRounded-Bold.otf */,
+				6211E27E23B55BAB00983FE0 /* GothamRounded-Book.otf */,
+				6211E28023B55BAB00983FE0 /* GothamRounded-Light.otf */,
+				6211E28123B55BAB00983FE0 /* GothamRounded-Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		62D191D623A6F48400A642FE = {
+			isa = PBXGroup;
+			children = (
+				622D0C6B23EB6C4B004FFDFE /* ImageCarouselView.swift */,
+				6200AA5023CD13EC0073CA53 /* Carrito+CoreDataClass.swift */,
+				6200AA5123CD13EC0073CA53 /* Carrito+CoreDataProperties.swift */,
+				6200AA4723CD03460073CA53 /* Favoritos+CoreDataClass.swift */,
+				6200AA4823CD03460073CA53 /* Favoritos+CoreDataProperties.swift */,
+				62D191E123A6F48400A642FE /* Click Box */,
+				62D191F823A6F48600A642FE /* Click BoxTests */,
+				62D1920323A6F48600A642FE /* Click BoxUITests */,
+				6200AA4B23CD07D10073CA53 /* Click Box.app */,
+				6200AA4C23CD07D10073CA53 /* Click BoxTests.xctest */,
+				6200AA4D23CD07D10073CA53 /* Click BoxUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		62D191E123A6F48400A642FE /* Click Box */ = {
+			isa = PBXGroup;
+			children = (
+				6247193023ECE096007DF13F /* DetailAddCart.swift */,
+				6211E27923B5599000983FE0 /* Font */,
+				62D191E223A6F48400A642FE /* AppDelegate.swift */,
+				62D191E423A6F48400A642FE /* SceneDelegate.swift */,
+				62D191E623A6F48400A642FE /* ContentView.swift */,
+				62D191E823A6F48600A642FE /* Assets.xcassets */,
+				62D191ED23A6F48600A642FE /* LaunchScreen.storyboard */,
+				62D191F023A6F48600A642FE /* Info.plist */,
+				62D191EA23A6F48600A642FE /* Preview Content */,
+				62102E6E23A82C0C00D2BCCC /* UserSettings.swift */,
+				6211E26323B52D7000983FE0 /* FavoritoView.swift */,
+				6211E26523B54A6D00983FE0 /* HomeView.swift */,
+				6211E26723B54E6600983FE0 /* CarritoView.swift */,
+				6211E26923B5534700983FE0 /* BuscarView.swift */,
+				6200AA3723C7EC540073CA53 /* Clickboxmodel.xcdatamodeld */,
+				6248705124041D54002864CF /* ValoresPago.swift */,
+			);
+			path = "Click Box";
+			sourceTree = "<group>";
+		};
+		62D191EA23A6F48600A642FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62D191EB23A6F48600A642FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62D191F823A6F48600A642FE /* Click BoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				62D191F923A6F48600A642FE /* Click_BoxTests.swift */,
+				62D191FB23A6F48600A642FE /* Info.plist */,
+			);
+			path = "Click BoxTests";
+			sourceTree = "<group>";
+		};
+		62D1920323A6F48600A642FE /* Click BoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62D1920423A6F48600A642FE /* Click_BoxUITests.swift */,
+				62D1920623A6F48600A642FE /* Info.plist */,
+			);
+			path = "Click BoxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D191DE23A6F48400A642FE /* Click Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D1920923A6F48600A642FE /* Build configuration list for PBXNativeTarget "Click Box" */;
+			buildPhases = (
+				62D191DB23A6F48400A642FE /* Sources */,
+				62D191DC23A6F48400A642FE /* Frameworks */,
+				62D191DD23A6F48400A642FE /* Resources */,
+				62119C3123C3A9F100942223 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Click Box";
+			productName = "Click Box";
+			productReference = 6200AA4B23CD07D10073CA53 /* Click Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62D191F423A6F48600A642FE /* Click BoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D1920C23A6F48600A642FE /* Build configuration list for PBXNativeTarget "Click BoxTests" */;
+			buildPhases = (
+				62D191F123A6F48600A642FE /* Sources */,
+				62D191F223A6F48600A642FE /* Frameworks */,
+				62D191F323A6F48600A642FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D191F723A6F48600A642FE /* PBXTargetDependency */,
+			);
+			name = "Click BoxTests";
+			productName = "Click BoxTests";
+			productReference = 6200AA4C23CD07D10073CA53 /* Click BoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62D191FF23A6F48600A642FE /* Click BoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D1920F23A6F48600A642FE /* Build configuration list for PBXNativeTarget "Click BoxUITests" */;
+			buildPhases = (
+				62D191FC23A6F48600A642FE /* Sources */,
+				62D191FD23A6F48600A642FE /* Frameworks */,
+				62D191FE23A6F48600A642FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D1920223A6F48600A642FE /* PBXTargetDependency */,
+			);
+			name = "Click BoxUITests";
+			productName = "Click BoxUITests";
+			productReference = 6200AA4D23CD07D10073CA53 /* Click BoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D191D723A6F48400A642FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Javier Lopez";
+				TargetAttributes = {
+					62D191DE23A6F48400A642FE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					62D191F423A6F48600A642FE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 62D191DE23A6F48400A642FE;
+					};
+					62D191FF23A6F48600A642FE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 62D191DE23A6F48400A642FE;
+					};
+				};
+			};
+			buildConfigurationList = 62D191DA23A6F48400A642FE /* Build configuration list for PBXProject "Click Box" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D191D623A6F48400A642FE;
+			productRefGroup = 62D191D623A6F48400A642FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D191DE23A6F48400A642FE /* Click Box */,
+				62D191F423A6F48600A642FE /* Click BoxTests */,
+				62D191FF23A6F48600A642FE /* Click BoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D191DD23A6F48400A642FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D191EC23A6F48600A642FE /* Preview Assets.xcassets in Resources */,
+				62D191E923A6F48600A642FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D191F323A6F48600A642FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D191FE23A6F48600A642FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D191DB23A6F48400A642FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D191E323A6F48400A642FE /* AppDelegate.swift in Sources */,
+				62102E6F23A82C0C00D2BCCC /* UserSettings.swift in Sources */,
+				6200AA5323CD13EC0073CA53 /* Carrito+CoreDataProperties.swift in Sources */,
+				6211E26423B52D7000983FE0 /* FavoritoView.swift in Sources */,
+				6211E26623B54A6D00983FE0 /* HomeView.swift in Sources */,
+				6211E26823B54E6600983FE0 /* CarritoView.swift in Sources */,
+				62D191E523A6F48400A642FE /* SceneDelegate.swift in Sources */,
+				6200AA5223CD13EC0073CA53 /* Carrito+CoreDataClass.swift in Sources */,
+				6200AA3923C7EC540073CA53 /* Clickboxmodel.xcdatamodeld in Sources */,
+				6200AA4923CD03460073CA53 /* Favoritos+CoreDataClass.swift in Sources */,
+				6211E26A23B5534700983FE0 /* BuscarView.swift in Sources */,
+				62D191E723A6F48400A642FE /* ContentView.swift in Sources */,
+				6247193123ECE096007DF13F /* DetailAddCart.swift in Sources */,
+				622D0C6C23EB6C4B004FFDFE /* ImageCarouselView.swift in Sources */,
+				6200AA4A23CD03460073CA53 /* Favoritos+CoreDataProperties.swift in Sources */,
+				6248705224041D54002864CF /* ValoresPago.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D191F123A6F48600A642FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D191FA23A6F48600A642FE /* Click_BoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D191FC23A6F48600A642FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1920523A6F48600A642FE /* Click_BoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D191F723A6F48600A642FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D191DE23A6F48400A642FE /* Click Box */;
+			targetProxy = 62D191F623A6F48600A642FE /* PBXContainerItemProxy */;
+		};
+		62D1920223A6F48600A642FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D191DE23A6F48400A642FE /* Click Box */;
+			targetProxy = 62D1920123A6F48600A642FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62D191ED23A6F48600A642FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D191EE23A6F48600A642FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D1920723A6F48600A642FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D1920823A6F48600A642FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D1920A23A6F48600A642FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Click Box/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Click Box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clickbox.Click-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62D1920B23A6F48600A642FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Click Box/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Click Box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clickbox.Click-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62D1920D23A6F48600A642FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Click BoxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clickbox.Click-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click Box.app/Click Box";
+			};
+			name = Debug;
+		};
+		62D1920E23A6F48600A642FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Click BoxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clickbox.Click-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click Box.app/Click Box";
+			};
+			name = Release;
+		};
+		62D1921023A6F48600A642FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Click BoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clickbox.Click-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Click Box";
+			};
+			name = Debug;
+		};
+		62D1921123A6F48600A642FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Click BoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "clickbox.Click-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Click Box";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D191DA23A6F48400A642FE /* Build configuration list for PBXProject "Click Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1920723A6F48600A642FE /* Debug */,
+				62D1920823A6F48600A642FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D1920923A6F48600A642FE /* Build configuration list for PBXNativeTarget "Click Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1920A23A6F48600A642FE /* Debug */,
+				62D1920B23A6F48600A642FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D1920C23A6F48600A642FE /* Build configuration list for PBXNativeTarget "Click BoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1920D23A6F48600A642FE /* Debug */,
+				62D1920E23A6F48600A642FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D1920F23A6F48600A642FE /* Build configuration list for PBXNativeTarget "Click BoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1921023A6F48600A642FE /* Debug */,
+				62D1921123A6F48600A642FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6200AA3723C7EC540073CA53 /* Clickboxmodel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6200AA4223CCDEAC0073CA53 /* Clickboxmodel 2.xcdatamodel */,
+				6200AA3823C7EC540073CA53 /* Clickboxmodel.xcdatamodel */,
+			);
+			currentVersion = 6200AA4223CCDEAC0073CA53 /* Clickboxmodel 2.xcdatamodel */;
+			path = Clickboxmodel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62D191D723A6F48400A642FE /* Project object */;
+}

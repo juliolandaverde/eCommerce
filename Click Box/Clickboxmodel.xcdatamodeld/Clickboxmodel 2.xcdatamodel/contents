@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Carrito" representedClassName=".Carrito" syncable="YES">
+        <attribute name="cantidad" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="idproducto" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageurl" optional="YES" attributeType="String"/>
+        <attribute name="nombreproducto" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="regular_price" optional="YES" attributeType="String"/>
+        <attribute name="total" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Favoritos" representedClassName=".Favoritos" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="idproducto" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageurl" optional="YES" attributeType="String"/>
+        <attribute name="nombreproducto" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="regular_price" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Carrito" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="Favoritos" positionX="-54" positionY="36" width="128" height="133"/>
+    </elements>
+</model>
